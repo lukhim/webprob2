@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <a href="index.html"><img class="logo" src="logo.png"></a>
+                <!--<img class="logo1" src="D:\A Gw\Progate\UBSI.png">-->
+            </div>
+            <!-- Tambahkan ikon menu dibawah -->
+
+            <div class="header-right">
+                <a href="cart.php">Keranjang</a>
+                <a href="akun.html">Luki</a>
+                <a href="index.html" class="login">Log Out</a>
+            </div>
+        </div>
+    </header>
+    <div class="detail-item">
+        <div class="container">
+            <div class="foto-item">
+                <img class="foto" src="item11.jpg" alt="">
+            </div>
+            <div class="details">
+                <h1>MystShirt</h1>
+                <p2>Bingung mau pilih warna, pola, gambar baju?<br> MystShirt bakal memberikan kamu apapun yang terbaik<br> Tinggal tentuin ukuran langsung dapet dan syukuri!</p2>
+                <h2>Rp65.000</h2>
+                <form action="cart.php" method="post">
+                    <div class="pilih-ukuran">
+                        <h5>Pilih ukuran yang pas</h5>
+                        <input type="radio" name="size" value="XL">XL
+                        <input type="radio" name="size" value="L">L
+                        <input type="radio" name="size" value="M">M
+                        <input type="radio" name="size" value="S">S
+                        <h5>Mau beli Berapa?</h5>
+                        <input type="hidden" name="jmlh" value="1">
+                        <input type="radio" name="jmlh" value="1">1
+                        <input type="radio" name="jmlh" value="2">2
+                        <input type="radio" name="jmlh" value="3">3
+                        <input type="radio" name="jmlh" value="4">4
+                        <input type="radio" name="jmlh" value="5">5
+                        <input type="hidden" name="img" value="item11.jpg">
+                        <input type="submit" value="Masukin Keranjang">
+                    </div>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="pesan-wrap">
+        <div class="container">
+            <div class="pesan-kiri">
+                <img class="logo-bawah" src="logo.png" alt="">
+            </div>
+            <div class="tentang">
+                <h1>Tentang Kami Kelompok 5</h1>
+                <p1>Mengambil tema toko baju online</p1>
+                <p1>Beranggotakan 5 pemuda keren <br>membuat tampilan website sederhana untuk menyelesaikan <br>tugas akhir Web Programming 1</p1>
+            </div>
+            <div class="pesan-kanan">
+                <h1>FOLLOW US</h1>
+                <div class="akun">
+                    <div class="akunlukman">
+                        <img class="logoig" src="iglogo.png">
+                        <p1><a href="https://www.instagram.com/lukmanhak02/" target="_blank">Lukmanul Hakim</a></p1>
+                    </div>
+                    <div class="akunhana">
+                        <img class="logoig" src="iglogo.png">
+                        <p1><a href="https://www.instagram.com/hanaahaan/?igshid=YmMyMTA2M2Y%3D" target="_blank">Hana Nur Asy Syifa</a></p1>
+                    </div>
+                    <div class="akunlukman">
+                        <img class="logoig" src="iglogo.png">
+                        <p1><a href="https://www.instagram.com/maulidiya_fa/?igshid=YmMyMTA2M2Y%3D" target="_blank">Maulidiya Fitri Ainurrahma</a></p1>
+                    </div>
+                    <div class="akunlukman">
+                        <img class="logoig" src="iglogo.png">
+                        <p1><a href="https://www.instagram.com/lukmanhak02/" target="_blank">Selvy Yolanda</a></p1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
