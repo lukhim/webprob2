@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Arial";
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrap {
+    padding: 180px 0 100px 0;
+    background-color: burlywood;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.361);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition: 0.8s;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.logo1 {
+    width: 50px;
+    margin-top: -30px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    float: left;
+    transition: all 0.8s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.clear {
+    clear: left;
+}
+
+.login-wrap {
+    padding-top: 85px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(124, 124, 124);
+    text-align: center;
+}
+
+.pesan-kiri {
+    float: left;
+    width: 20%;
+}
+
+.pesan-kanan {
+    float: right;
+    width: 30%;
+}
+
+.pesan-kanan p1 {
+    text-align: top;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 200;
+}
+
+.logoig {
+    width: 30px;
+}
+
+.logo-bawah {
+    width: 70%;
+}
+
+.tentang {
+    align-items: center;
+    float: left;
+}
+
+.pesan-wrap .container {
+    padding: 2% 0 15% 0;
+}
